@@ -10,7 +10,7 @@ public class DataFun {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter your favorite number: "); //part 1
     int num = input.nextInt();
-    if (num >= 0) { //positive/negitive test
+    if (num >= 0) { //positive/negative test
       System.out.println(num + " is positive, ");
     } else {
       System.out.println(num + " is negative, ");
